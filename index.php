@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +13,9 @@
     <header>
         <div class="ancho">
             <div class="logo">
+            <li><a href="registro.php">registro</a></li>
+
+            
                   <p><a href="index.php">Albergue</a></p>
             </div>
             <nav>
@@ -49,21 +50,6 @@ sus tristes historias, siempre nos esperan con una sonrisa.</p>
     <title>Proyecto</title>
 </head>
 <body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -104,7 +90,7 @@ aplicando la técnica de socialización activa entre pares</p>
 
                 <div class="colum3">
 
-                    <h1>Informacion Contactos</h1>
+                    <h1>Informacion </h1>
 
                     <div class="row2">
                         <img src="iconos/casa.png">

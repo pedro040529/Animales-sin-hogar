@@ -10,7 +10,27 @@
 </head>
 <body>
 
-
+<div class="ancho">
+            <div class="logo">
+                  <p><a href="Nosotros.php">Albergue</a></p>
+            </div>
+            <nav>
+                <ul>
+                     <li><a href="index.php" class="abc">Inicio</a></li>
+                     <li><a href="Nosotros.php" class="abc">Nosotros</a></li>
+                     <li><a href="Adopciones.php" class="abc">Adopciones</a></li>
+                     <li><a href="Voluntariado.php" class="abc">Voluntariado</a></li>
+                     <li><a href="Donaciones.php" class="abc">Donaciones</a></li>
+                     <li><a href="#">Contacto</a></li>
+                </ul>                  
+            </nav>
+        </div>
+    </header>
+    
+    <div class="colordiv">
+        <h1 class="titulo2">DONACIONES</h1>
+            
+    </div>
 
 
 

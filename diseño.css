@@ -3,15 +3,13 @@ background: url('imagenes/fondo.jpg');
 height: 900px;
 
 }
-.fondo2{
-  background: url('imagenes/fondo2.jpg');
+.fondo3{
+background: url('imagenes/fondo4.jpg');
  background-size: 120%;
- height: 1180px;
+ height: 1040px;
 
-  background-repeat: no-repeat;
+background-repeat: no-repeat;
   }
-  
-
 
 *{
   margin:0;
@@ -36,10 +34,11 @@ header{
 }
 .logo p a{
   color: black;
-  font-size: 40px;
+  font-size: 45px;
   text-decoration: none;
   font-weight: bold;
   font-family: opens;
+
 }
 nav{
   width: 70%;
@@ -69,6 +68,7 @@ nav ul li a:hover{
   font-family: opens;
   src: url(OpenSansCondensed-Light.ttf);
 }
+
 .tituloletra{
   padding-top: 305px;
   position: absolute;
@@ -88,6 +88,15 @@ nav ul li a:hover{
   left:200px;
   color: #fff;
 }
+.contenido21{
+  padding-top: 20px;
+  position: absolute;
+  width:80%;
+  position:relative;
+  font-size: 23px;
+  left:200px;
+  color: black;
+}
 .tituloletra2{
   padding-top: 305px;
   position: absolute;
@@ -96,7 +105,7 @@ nav ul li a:hover{
   top:10px;
   font-size: 55px;
   left:200px;
-  color: #444;
+  color: #fff;
 }
 .contenido2{
   padding-top: 20px;
@@ -105,7 +114,7 @@ nav ul li a:hover{
   position:relative;
   font-size: 25px;
   left:200px;
-  color: #444;
+  color: #fff;
 }
 .titulo2{
   padding-top: 20px;
@@ -167,7 +176,10 @@ footer{
   color: black;
   margin-top: 20px;
 }
-
+.disminuye{
+  width: 50px;
+  height: auto;
+}
 .colum2{
   max-width: 400px;
   

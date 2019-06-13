@@ -26,14 +26,14 @@
             </nav>
         </div>
     </header>
-    <div class="fondo2">
+    
     <div class="colordiv">
-        <h1 class="titulo2">NUESTRO ALBERGUE</h1>
-            <p class="contenido2">No somos solo amantes de los animales. Somos un grupo especializado y con años de experiencia, reconocidos a nivel nacional.</p>
+        <h1 class="titulo2">NOSOTROS</h1>
+            <p class="contenido21">No somos solo amantes de los animales. Somos un grupo especializado y con años de experiencia, reconocidos a nivel nacional.</p>
         
     </div>
     
-           
+    <div class="fondo3">
                 <p class="contenido2">El Poder de la Manada es un centro de rehabilitación canino, sin fines de lucro, que está enfocado principalmente en perros que sufren 
                 alguna enfermedad grave o tienen problemas conductuales. Somos un equipo de profesionales que cree fervientemente que podemos darles una 
                 segunda oportunidad a estos canes, aplicando la técnica de socialización activa entre pares. Nuestro modo de trabajo se rige por las 
@@ -60,8 +60,8 @@
                 <p class="contenido2">8. Promover y difundir nuestro modelo de rehabilitación (socialización activa entre pares).</p>
                 <p class="contenido2">9. Construir y administrar una clínica veterinaria para prestar servicios a la comunidad a bajo costo, y que en ella puedan tratarse los animales abandonados y refugiados.</p>
                
-</div>
-                <footer>
+    </div>
+      <footer>
        
        <div class="container-footer-all">
         
