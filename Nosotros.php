@@ -12,16 +12,16 @@
     <header>
         <div class="ancho">
             <div class="logo">
-                  <p><a href="Nosotros.php">Albergue</a></p>
+            <p><a href="index.php">Albergue INO</a></p>
             </div>
             <nav>
                 <ul>
                      <li><a href="index.php" class="abc">Inicio</a></li>
                      <li><a href="Nosotros.php" class="abc">Nosotros</a></li>
                      <li><a href="Adopciones.php" class="abc">Adopciones</a></li>
-                     <li><a href="Voluntariado.php" class="abc">Voluntariado</a></li>
+                     <li><a href="Esterilizar.php" class="abc">Esterilizacion</a></li>
                      <li><a href="Donaciones.php" class="abc">Donaciones</a></li>
-                     <li><a href="#">Contacto</a></li>
+    
                 </ul>                  
             </nav>
         </div>
@@ -50,17 +50,28 @@
                          ayudas o subsidios relacionados con los propósitos de reinserción y concientización en la tenencia responsable.</p>
 
                 <h1 class="titulo2">Nuestros objetivos</h1>
+                
                 <p class="contenido2">1. El rescate de animales maltratados, abandonados y en situación, física y psicológica, desmejorada para luego trabajar en su rehabilitación, protección y adiestramiento.</p>
+                
                 <p class="contenido2">2. Organizar y/o patrocinar campañas de educación, fomento y divulgación de la tenencia responsable.</p>
+                
                 <p class="contenido2">3. Realizar operativos de vacunación, esterilización, desparasitación y adiestramiento de los animales que se encuentran abandonados en las calles.</p>
+                
                 <p class="contenido2">4. Mantenimiento de uno o más refugios para la adecuada protección y cuidado de los animales en situación desmejorada.</p>
+                
                 <p class="contenido2">5. Realizar todo tipo de campañas de difusión, estudios, jornadas de capacitación, entre otros, sobre las leyes existentes en materia de protección animal.</p>
+                
                 <p class="contenido2">6. Suscribir convenios con otras fundaciones, con fines u objetivos similares y convenios de asistencia técnica, veterinaria, educacional y de acción social con entes públicos o privados.</p>
+                
                 <p class="contenido2">7. Capacitar y especializar en materias de adiestramiento y manejo conductual de los animales, medicina veterinaria y administración.</p>
+                
                 <p class="contenido2">8. Promover y difundir nuestro modelo de rehabilitación (socialización activa entre pares).</p>
+                
                 <p class="contenido2">9. Construir y administrar una clínica veterinaria para prestar servicios a la comunidad a bajo costo, y que en ella puedan tratarse los animales abandonados y refugiados.</p>
+                
                
     </div>
+    
       <footer>
        
        <div class="container-footer-all">
@@ -83,15 +94,15 @@ aplicando la técnica de socialización activa entre pares</p>
 
                     <div class="row">
                         <img src="iconos/facebook.png">
-                        <label>Siguenos en Facebook</label>
+                        <a href="http://www.facebook.com"><label>Siguenos en Facebook</label></a>
                     </div>
                     <div class="row">
                         <img src="iconos/twitter.png">
-                        <label>Siguenos en Twitter</label>
+                        <a href="http://www.twitter.com"><label>Siguenos en Twitter</label></a>
                     </div>
                     <div class="row">
                         <img src="iconos/instagram.png">
-                        <label>Siguenos en Instagram</label>
+                        <a href="http://www.instagram.com"><label>Siguenos en Instagram</label></a>
                     </div>
 
                 </div>

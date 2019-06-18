@@ -43,7 +43,7 @@ header{
 nav{
   width: 70%;
   height: 70px;
-  float: left;
+  float: right;
   text-align: right;
   padding-top: 24px;
   box-sizing: border-box;
@@ -245,4 +245,12 @@ footer{
   justify-content: center;
   font-weight: bold;
   color: black;
+}
+.img{
+  width: 50%;
+  height: 50px;
+  float: right;
+  text-align: left;
+  padding-top: 10px;
+  box-sizing: border-box;
 }

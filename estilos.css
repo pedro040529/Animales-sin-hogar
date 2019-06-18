@@ -1,0 +1,192 @@
+.logo2{
+    position:absolute;
+width:200px;
+height:200px;
+top:10%;
+left:50%;
+margin-top:-100px;
+margin-left:-100px;
+  }
+  .logo2 p a{
+    color: black;
+    font-size: 45px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: opens;
+  
+  }
+  .letra{
+    color: #8A0829;
+    
+  }
+  .admin{
+      font-size: 200%;
+      color: #8A0829;
+  
+  font-weight: bold;
+  font-family: opens;
+    
+  }
+  .almedio{
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:30%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-100px;
+  }
+  .divisiones1{
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:20%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-100px;
+  }
+  .divisiones2{
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:28%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-100px;
+  }
+  .divisiones3{
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:50%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-100px;
+  }
+  .botoncito{
+        position:absolute;
+        width:200px;
+        height:40px;
+        top:58%;
+        left:50%;
+        margin-top:-100px;
+        margin-left:-100px;
+  }
+  .colordiv3{
+    position:absolute;
+    width:300px;
+    height:250px;
+    top:10%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-100px;
+  }
+  .regresa{
+    font-size: 200%;
+    color: #fff;
+  }
+  .bodys{
+      background-color: #E0ECF8;
+      font-family: Arial;
+  }
+  #main-container{
+      margin: 2px auto;
+      width: 900PX;
+  }
+  table{
+      background-color:white;
+      text-align: left;
+      border-collapse: collapse;
+      width: 100%;
+  }
+  th{
+      padding:25px;
+  }
+  td{
+      padding: 1px;
+  }
+  thead{
+      background-color: #246355;
+      border-bottom: solid 5px #0F362D;
+      color: white;
+  }
+  tr:nth-child(even){
+      background-color: #ddd;
+  }
+  tr:hover{
+      background-color: #369681;
+      color: white;
+  }
+  .titulo{
+    color: #8A0829;
+      font-size: 30px;
+  }
+  .botoncito1{
+    position:absolute;
+    width:200px;
+    height:40px;
+    top:48%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-100px;
+  }
+
+  .divisiones12{
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:35%;
+    left:50%;
+    margin-top:-100px;
+    margin-left:-100px;
+  }
+  .divisiones22{
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:52%;
+    left:50%; margin-top:-100px;
+    margin-left:-100px;
+   
+  }
+  .divisiones32{
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:52%;
+    left:60%;
+    margin-top:-100px;
+  }
+  .botoncito2{
+    position:absolute;
+    width:200px;
+    height:60px;
+    top:63%;
+    left:60%;
+    margin-top:-100px;
+  }
+  .divisiones123{
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:35%;
+    left:60%;   margin-top:-100px;
+   
+  }
+  .divisiones124{
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:35%;
+    left:60%;
+   
+    
+  }
+  .divisiones125{
+    position:absolute;
+    width:200px;
+    height:200px;
+    top:35%;
+    left:50%;
+    margin-left:-100px;
+  }

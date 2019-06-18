@@ -4,47 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
     <title>Document</title>
 </head>
-<body>
+<body class=bodys>
      
-    <div class="colordiv">
-        <h1 class="titulo2">ADOPCIONES</h1>
+    <div class="colordiv3">
+        <h1 class="titulo2">Registrar Mascota</h1>
             
     </div>
 
-    <h1>Registrar Mascota</h1>
-  
-
+   
     <form action="procesarmascota.php" method="post">
     
     
-    <div>
+    <div class="divisiones1">
 
     Nombre: <input type="text" name="n">
     
     </div>
 
-    <div>
+    <div class="divisiones2">
     
     Descripcion:
     <textarea name="d" cols="30" rows="10"></textarea>
     
     </div>
 
-    <div>
+    <div class="divisiones3">
     
     Lugar:
     <input type="text" name="l">
     
     </div>
 
-    <button>Enviar</button>
+    <button class="botoncito">Enviar</button>
     
     
     </form>
-    <li><a href="Mascotas.php">Mascotas</a></li>
-    <li><a href="index.php">Pagina Principal</a></li>
-    <li><a href="actualizar.php">Actualizar Albergue</a></li>
+    <div class="regresa">
+    <a href="administrador.php" class="letra">Regresar</a>
+    </div>
 </body>
 </html>

@@ -12,20 +12,20 @@
     
     <header>
         <div class="ancho">
+        
             <div class="logo">
-            <li><a href="registro.php">registro</a></li>
-
+           
             
-                  <p><a href="index.php">Albergue</a></p>
+                  <p><a href="index.php">Albergue INO</a></p>
             </div>
             <nav>
                 <ul>
                      <li><a href="index.php">Inicio</a></li>
                      <li><a href="Nosotros.php">Nosotros</a></li>
                      <li><a href="Adopciones.php">Adopciones</a></li>
-                     <li><a href="Voluntariado.php">Voluntariado</a></li>
+                     <li><a href="Esterilizar.php">Esterilizacion</a></li>
                      <li><a href="Donaciones.php">Donaciones</a></li>
-                     <li><a href="#">Contacto</a></li>
+                 
                 </ul>                  
             </nav>
         </div>
@@ -50,8 +50,9 @@ sus tristes historias, siempre nos esperan con una sonrisa.</p>
     <title>Proyecto</title>
 </head>
 <body>
-
-
+<br>
+<br>
+<br><br><br><br>
 
    <footer>
        
@@ -75,15 +76,15 @@ aplicando la técnica de socialización activa entre pares</p>
 
                     <div class="row">
                         <img src="iconos/facebook.png">
-                        <label>Siguenos en Facebook</label>
+                        <a href="http://www.facebook.com"><label>Siguenos en Facebook</label></a>
                     </div>
                     <div class="row">
                         <img src="iconos/twitter.png">
-                        <label>Siguenos en Twitter</label>
+                        <a href="http://www.twitter.com"><label>Siguenos en Twitter</label></a>
                     </div>
                     <div class="row">
                         <img src="iconos/instagram.png">
-                        <label>Siguenos en Instagram</label>
+                        <a href="http://www.instagram.com"><label>Siguenos en Instagram</label></a>
                     </div>
 
                 </div>

@@ -12,16 +12,16 @@
 
 <div class="ancho">
             <div class="logo">
-                  <p><a href="Nosotros.php">Albergue</a></p>
+            <p><a href="index.php">Albergue INO</a></p>
             </div>
             <nav>
                 <ul>
                      <li><a href="index.php" class="abc">Inicio</a></li>
                      <li><a href="Nosotros.php" class="abc">Nosotros</a></li>
                      <li><a href="Adopciones.php" class="abc">Adopciones</a></li>
-                     <li><a href="Voluntariado.php" class="abc">Voluntariado</a></li>
+                     <li><a href="Esterilizar.php" class="abc">Esterilizacion</a></li>
                      <li><a href="Donaciones.php" class="abc">Donaciones</a></li>
-                     <li><a href="#">Contacto</a></li>
+
                 </ul>                  
             </nav>
         </div>
@@ -69,15 +69,15 @@ aplicando la técnica de socialización activa entre pares</p>
 
                     <div class="row">
                         <img src="iconos/facebook.png">
-                        <label>Siguenos en Facebook</label>
+                        <a href="http://www.facebook.com"><label>Siguenos en Facebook</label></a>
                     </div>
                     <div class="row">
                         <img src="iconos/twitter.png">
-                        <label>Siguenos en Twitter</label>
+                        <a href="http://www.twitter.com"><label>Siguenos en Twitter</label></a>
                     </div>
                     <div class="row">
                         <img src="iconos/instagram.png">
-                        <label>Siguenos en Instagram</label>
+                        <a href="http://www.instagram.com"><label>Siguenos en Instagram</label></a>
                     </div>
 
                 </div>

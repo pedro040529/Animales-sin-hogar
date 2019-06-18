@@ -27,7 +27,7 @@
                      <li><a href="index.php" class="abc">Inicio</a></li>
                      <li><a href="Nosotros.php" class="abc">Nosotros</a></li>
                      <li><a href="Adopciones.php" class="abc">Adopciones</a></li>
-                     <li><a href="Voluntariado.php" class="abc">Voluntariado</a></li>
+                     <li><a href="Esterilizacion.php" class="abc">Esterilizacion</a></li>
                      <li><a href="Donaciones.php" class="abc">Donaciones</a></li>
                      <li><a href="index.php">Contacto</a></li>
                 </ul>                  

@@ -1,17 +1,3 @@
-<?php
-
-# Fase 1:  Estableciendo la conexion con MySQL
-$pdo = new PDO("mysql:host=localhost;dbname=albergue;charset=utf8","root","");
-
-
-
-
-?>
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,12 +5,12 @@ $pdo = new PDO("mysql:host=localhost;dbname=albergue;charset=utf8","root","");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="diseño.css">
-
+    <link rel="stylesheet" href="estilos.css">
     <title>Proyecto</title>
 </head>
 <body>
-<header>
-        <div class="ancho">
+
+<div class="ancho">
             <div class="logo">
             <p><a href="index.php">Albergue INO</a></p>
             </div>
@@ -35,49 +21,70 @@ $pdo = new PDO("mysql:host=localhost;dbname=albergue;charset=utf8","root","");
                      <li><a href="Adopciones.php" class="abc">Adopciones</a></li>
                      <li><a href="Esterilizar.php" class="abc">Esterilizacion</a></li>
                      <li><a href="Donaciones.php" class="abc">Donaciones</a></li>
-      
+
                 </ul>                  
             </nav>
         </div>
     </header>
-    
+  
     <div class="colordiv">
-        <h1 class="titulo2">ADOPCIONES</h1>
+        <h1 class="titulo2">ESTERILIZACIÓN</h1>
             
     </div>
-    <img src="imagenes/perro1.jpg" alt="" width="300" height="300">
-   
-<img src="imagenes/perro2.png" alt="" width="300" height="300">
-<img src="imagenes/perro3.jpg" alt="" width="300" height="300">
-<img src="imagenes/perro4.jpg" alt="" width="300" height="300">
-<img src="imagenes/perro5.jpg" alt="" width="300" height="300">
+    <br><br><br><br><br>  <br><br><br><br><br>  <br><br><br><br><br>   <br><br><br><br><br>
+    <form action="procesarmascota.php" method="post">
+    
+    
+    <div class="divisiones12">
 
-<?php
+    Nombres: <input type="text" name="n">
+    
+    </div>
 
-      #Fase 2: Iterar los registros
-?>
-  
-    <?php foreach($pdo->query("SELECT*FROM registro ORDER BY id DESC") as $fila) { ?>
+    <div class="divisiones123">
+
+Apellidos: <input type="text" name="n">
+
+</div>
+
+<div class="divisiones124">
+
+Telefono: <input type="text" name="n">
+
+</div>
+
+<div class="divisiones125">
+
+Nombre de la mascota: <input type="text" name="n">
+
+</div>
+
+    <div class="divisiones22">
+    
+    Descripcion:
+    <textarea name="d" cols="30" rows="10"></textarea>
+    
+    </div>
+
+    <div class="divisiones32">
+    
+    Edad:
+    <input type="text" name="l">
+    
+    </div>
+
+    <button class="botoncito2">Enviar</button>
+    
+    
+    </form>
+
+<br><br><br><br><br><br><br><br><br><br><br>
 
 
 
-    <h2><?php echo $fila["nombre"] ?></h2>
-    <p><?php echo $fila["descripcion"] ?></p>
-    <?php echo $fila["lugar"] ?></p>
-
-<?php } ?>
-
- <br>
-<br>
 
 
-
-
-<br><br><br><br><br>
-
-
-
-   <footer>
+    <footer>
        
        <div class="container-footer-all">
         
