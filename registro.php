@@ -20,21 +20,21 @@
     
     <div class="divisiones1">
 
-    Nombre: <input type="text" name="n">
+    Nombre: <input type="text" name="ns">
     
     </div>
 
     <div class="divisiones2">
     
     Descripcion:
-    <textarea name="d" cols="30" rows="10"></textarea>
+    <textarea name="ds" cols="30" rows="10"></textarea>
     
     </div>
 
     <div class="divisiones3">
     
     Lugar:
-    <input type="text" name="l">
+    <input type="text" name="ls">
     
     </div>
 

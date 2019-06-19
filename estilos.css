@@ -103,7 +103,7 @@ margin-left:-100px;
       padding:25px;
   }
   td{
-      padding: 1px;
+      padding: 28px;
   }
   thead{
       background-color: #246355;
@@ -139,6 +139,7 @@ margin-left:-100px;
     left:50%;
     margin-top:-100px;
     margin-left:-100px;
+    font-size: 30px;
   }
   .divisiones22{
     position:absolute;
@@ -147,23 +148,25 @@ margin-left:-100px;
     top:52%;
     left:50%; margin-top:-100px;
     margin-left:-100px;
-   
+    font-size: 30px;
   }
   .divisiones32{
     position:absolute;
     width:200px;
     height:200px;
-    top:52%;
+    top:54%;
     left:60%;
     margin-top:-100px;
+    font-size: 30px;
   }
   .botoncito2{
     position:absolute;
     width:200px;
     height:60px;
-    top:63%;
-    left:60%;
+    top:75%;
+    left:59%;
     margin-top:-100px;
+    margin-left: -100px;
   }
   .divisiones123{
     position:absolute;
@@ -171,22 +174,42 @@ margin-left:-100px;
     height:200px;
     top:35%;
     left:60%;   margin-top:-100px;
+    font-size: 30px;
    
   }
   .divisiones124{
     position:absolute;
     width:200px;
     height:200px;
-    top:35%;
-    left:60%;
-   
-    
+    top:44%;
+    left:45%;
+    margin-top:-100px;
+    font-size: 30px;
   }
   .divisiones125{
     position:absolute;
     width:200px;
     height:200px;
-    top:35%;
-    left:50%;
-    margin-left:-100px;
+    top:33%;
+    left:60%; font-size: 30px;
+    
   }
+.abcde{
+  position:absolute;
+width:200px;
+height:200px;
+top:30%;
+left:37%;
+font-size: 300%;
+color: black;
+margin-left:-100px;
+ }
+ .divisiones323{
+  position:absolute;
+  width:200px;
+  height:200px;
+  top:64%;
+  left:60%;
+  margin-top:-100px;
+  font-size: 30px;
+}

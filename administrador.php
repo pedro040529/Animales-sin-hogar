@@ -24,7 +24,7 @@
     <br>
     <nav class="almedio">
         <ul>
-            <br>
+           
             <pre>
    <li> <a href="registro.php" class="admin">Nueva Mascota</a></li>
    <br>
@@ -43,6 +43,10 @@
   </pre>
   <pre>
   <li>  <a href="Mascotas.php"  class="admin">Lista de Mascotas</a></li>
+  <br>
+  </pre>
+  <pre>
+  <li>  <a href="voluntarios.php"  class="admin">Voluntarios</a></li>
   <br>
   </pre>
     </ul>

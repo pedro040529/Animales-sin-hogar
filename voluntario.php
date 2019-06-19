@@ -30,73 +30,122 @@
     </header>
   
     <div class="colordiv">
-        <h1 class="titulo2">ESTERILIZACIÓN</h1>
+        <h1 class="titulo2">VOLUNTARIADO</h1>
        <br>
        <br>
        <br>
        <br>
        <br>
-<img src="imagenes/fondo8.jpg" alt="" width="845" height="550">
-</div>
+<img src="imagenes/fondo9.jpg" alt="" width="845" height="550">
+
+    </div>
     <br><br><br><br><br>  <br><br><br><br><br>  <br><br><br><br><br>   <br><br><br><br><br>
-    <form action="procesarmascota2.php" method="post">
+    <form action="procesarmascota1.php" method="post">
     
     
     <div class="divisiones12">
 
-    <label>Nombres: <input type="text" name="n"></label>
+    <label>Nombres: <input type="text" name="n1"></label>
     
     </div>
 
     <div class="divisiones123">
 <label>
-Apellidos: <input type="text" name="a">
+Apellidos: <input type="text" name="a1">
 </label>
 </div>
 
 <div class="divisiones124">
 <label>
-Telefono: <input type="text" name="t">
+Telefono: <input type="text" name="t1">
 </label>
 </div>
 
 <div class="divisiones125">
-<label>
-Mascota: 
-<input type="text" name="m">
+<label for="distrito">
+Distrito: 
+<select name="di1" id="distrito">
+<option value="">Seleccione una opcion</option>
+                <option value="Ate">ATE</option>
+                <option value="Barranco">BARRANCO</option>
+                <option value="Breña">BREÑA</option>
+                <option value="Carabayllo">CARABAYLLO</option>
+                <option value="Chaclacayo">CHACLACAYO</option>
+                <option value="Chorrillos">CHORRILLOS</option>
+                <option value="Cieneguilla">CIENEGUILLA</option>
+                <option value="Comas">COMAS</option>
+                <option value="El Agustino">EL AGUSTINO</option>
+                <option value="Independencia">INDEPENDENCIA</option>
+                <option value="Jesus Maria">JESÚS MARÍA</option>
+                <option value="La Molina">LA MOLINA</option>
+                <option value="La Victoria">LA VICTORIA</option>
+                <option value="Lima">LIMA</option>
+                <option value="Lince">LINCE</option>
+                <option value="Los Olivos">LOS OLIVOS</option>
+                <option value="Lurigancho">LURIGANCHO</option>
+                <option value="Lurin">LURÍN</option>
+                <option value="Magdalena del Mar">MAGDALENA DEL MAR</option>
+                <option value="Miraflores">MIRAFLORES</option>
+                <option value="Pachacámac">PACHACÁMAC</option>
+                <option value="Pucusana">PUCUSANA</option>
+                <option value="Pueblo Libre">PUEBLO LIBRE</option>
+                <option value="Puente Piedra">PUENTE PIEDRA</option>
+                <option value="Punta Hermosa">PUNTA HERMOSA</option>
+                <option value="Punta Negra">PUNTA NEGRA</option>
+                <option value="Rímac">RÍMAC</option>
+                <option value="San Bartolo">SAN BARTOLO</option>
+                <option value="San Borja">SAN BORJA</option>
+                <option value="San Isidro">SAN ISIDRO</option>
+                <option value="San Juan de Lurigancho">SAN JUAN DE LURIGANCHO</option>
+                <option value="San Juan de Miraflores">SAN JUAN DE MIRAFLORES</option>
+                <option value="San Luis">SAN LUIS</option>
+                <option value="San Martin de Porres">SAN MARTIN DE PORRES</option>
+                <option value="San Miguel">SAN MIGUEL</option>
+                <option value="Santa Anita">SANTA ANITA</option>
+                <option value="Santa Maria del Mar">SANTA MARÍA DEL MAR</option>
+                <option value="Santa Rosa">SANTA ROSA</option>
+                <option value="Santiago de Surco">SANTIAGO DE SURCO</option>
+                <option value="Surquillo">SURQUILLO</option>
+                <option value="Villa El Salvador">VILLA EL SALVADOR</option>
+                <option value="Villa Maria del Triunfo">VILLA MARIA DEL TRIUNFO</option>
+            
 
+</select>
 </label>
 </div>
 
     <div class="divisiones22">
     <label>
     Descripcion:
-    <textarea name="d" cols="30" rows="10"></textarea>
+    <textarea name="d1" cols="30" rows="10"></textarea>
 </label>
     </div>
 
     <div class="divisiones32">
     <label>
     Edad:
-    <input type="text" name="e">
+    <input type="text" name="e1">
 </label>
     </div>
     <div class="divisiones323">
     <label for="sexo">
     Sexo:
-    <select name="s" >
+    <select name="s1" >
     <option value="">Seleccione una opcion</option>
-                <option value="F">Macho</option>
-                <option value="M">Hembra</option>
+                <option value="F">Femenino</option>
+                <option value="M">Masculino</option>
     </select>
 </label>
     </div>
+
     <button class="botoncito2">Registrar</button>
     
     
     </form>
-    <br>
-    <br><br><br><br><br><br><br><br><br><br>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+
 
 
 

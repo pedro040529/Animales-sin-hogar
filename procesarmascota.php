@@ -1,8 +1,8 @@
 <?php
 # Leer los parametros POST
-$nombre = $_POST["n"];
-$descripcion = $_POST["d"];
-$lugar = $_POST["l"];
+$nombre = $_POST["ns"];
+$descripcion = $_POST["ds"];
+$lugar = $_POST["ls"];
 
 
 # Guardar los datos en la BD

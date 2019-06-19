@@ -21,6 +21,8 @@
                      <li><a href="Adopciones.php" class="abc">Adopciones</a></li>
                      <li><a href="Esterilizar.php" class="abc">Esterilizacion</a></li>
                      <li><a href="Donaciones.php" class="abc">Donaciones</a></li>
+                     <li><a href="voluntario.php">Voluntariado</a></li>
+                     <li><a href="login.php">Administrador</a></li>
     
                 </ul>                  
             </nav>
@@ -34,10 +36,9 @@
     </div>
     
     <div class="fondo3">
-                <p class="contenido2">El Poder de la Manada es un centro de rehabilitación canino, sin fines de lucro, que está enfocado principalmente en perros que sufren 
-                alguna enfermedad grave o tienen problemas conductuales. Somos un equipo de profesionales que cree fervientemente que podemos darles una 
-                segunda oportunidad a estos canes, aplicando la técnica de socialización activa entre pares. Nuestro modo de trabajo se rige por las 
-                4 R’s, lo que significa: Rescate, Rehabilitación, Reeducación y Reinserción</p>
+                <p class="contenido2">El Albergue INO es un centro de rehabilitación canino, sin fines de lucro. Somos un equipo de profesionales que cree fervientemente que podemos darles una 
+                segunda oportunidad a estos canes
+            </p>
 
                 <h1 class="titulo2">Misión</h1>
 

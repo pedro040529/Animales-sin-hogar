@@ -19,7 +19,7 @@ $pdo = new PDO("mysql:host=localhost;dbname=albergue;charset=utf8","root","");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="diseño.css">
-
+    <link rel="stylesheet" href="estilos.css">
     <title>Proyecto</title>
 </head>
 <body>
@@ -35,6 +35,8 @@ $pdo = new PDO("mysql:host=localhost;dbname=albergue;charset=utf8","root","");
                      <li><a href="Adopciones.php" class="abc">Adopciones</a></li>
                      <li><a href="Esterilizar.php" class="abc">Esterilizacion</a></li>
                      <li><a href="Donaciones.php" class="abc">Donaciones</a></li>
+                     <li><a href="voluntario.php">Voluntariado</a></li>
+                     <li><a href="login.php">Administrador</a></li>
       
                 </ul>                  
             </nav>
@@ -45,12 +47,12 @@ $pdo = new PDO("mysql:host=localhost;dbname=albergue;charset=utf8","root","");
         <h1 class="titulo2">ADOPCIONES</h1>
             
     </div>
-    <img src="imagenes/perro1.jpg" alt="" width="300" height="300">
+    <img src="imagenes/perro1.jpg" alt="" width="350" height="300">
    
-<img src="imagenes/perro2.png" alt="" width="300" height="300">
-<img src="imagenes/perro3.jpg" alt="" width="300" height="300">
-<img src="imagenes/perro4.jpg" alt="" width="300" height="300">
-<img src="imagenes/perro5.jpg" alt="" width="300" height="300">
+<img src="imagenes/perro2.png" alt="" width="350" height="300">
+<img src="imagenes/perro3.jpg" alt="" width="400" height="300">
+<img src="imagenes/perro4.jpg" alt="" width="400" height="300">
+<img src="imagenes/perro5.jpg" alt="" width="387" height="300">
 
 <?php
 
@@ -58,22 +60,30 @@ $pdo = new PDO("mysql:host=localhost;dbname=albergue;charset=utf8","root","");
 ?>
   
     <?php foreach($pdo->query("SELECT*FROM registro ORDER BY id DESC") as $fila) { ?>
+        <div id="main-container">
+<table>
+<thead>
+<tr>
+<th>Nombre</th><th>Descripcion</th><th>Lugar</th>
+</tr>
 
-
-
-    <h2><?php echo $fila["nombre"] ?></h2>
-    <p><?php echo $fila["descripcion"] ?></p>
+</thead>
+<tr><td>
+    <h2><?php echo $fila["nombre"] ?></h2></td>
+    <td>
+    
+    <p><?php echo $fila["descripcion"] ?></p></td>
+    <td>
     <?php echo $fila["lugar"] ?></p>
+    </td>
+    </tr>
+    </table>
+    </div>
+
+
+
 
 <?php } ?>
-
- <br>
-<br>
-
-
-
-
-<br><br><br><br><br>
 
 
 

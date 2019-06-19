@@ -25,7 +25,9 @@
                      <li><a href="Adopciones.php">Adopciones</a></li>
                      <li><a href="Esterilizar.php">Esterilizacion</a></li>
                      <li><a href="Donaciones.php">Donaciones</a></li>
-                 
+                     <li><a href="voluntario.php">Voluntariado</a></li>
+                     <li><a href="login.php">Administrador</a></li>
+                     
                 </ul>                  
             </nav>
         </div>
